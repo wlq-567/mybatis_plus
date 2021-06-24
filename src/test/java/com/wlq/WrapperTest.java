@@ -80,4 +80,5 @@ public class WrapperTest {
         List<Object> objects = userMapper.selectObjs(wrapper);
         objects.forEach(System.out::println);
     }
+
 }
